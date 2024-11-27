@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+}
